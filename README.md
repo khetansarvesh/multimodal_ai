@@ -2,8 +2,8 @@
 
 
 # 2. Multimodal Inputs Single Output System 
-that can process both text and images
-Large MultiModal Models (LMMs) 
+These are systems that can take both text and images as inputs
+- Such models are commonly know as Large MultiModal Models (LMMs) 
 
 
 # 3. Single Input Multimodal Output

@@ -7,7 +7,7 @@ These are systems that can take both text and images as inputs
 
 
 # 3. Single Input Multimodal Output System
-
+These are systems that can generate multiple modalaties as output for instance if we ask ChatGPT to explain ’what is AI’ then an effective explanation might require graphs, equations, and even simple animations.
 
 # 4. Multimodal Input and Multimodal Outputs System
 These are systems that can generate both text and images.

@@ -22,12 +22,6 @@ These are systems that can take both text and images as inputs
 
 
 
-# $\color{cyan}{Text\ +\ 3D\ Input\}$
-1. Representation Learning
-2. Downstream Tasks
-
-
-
 
 
 

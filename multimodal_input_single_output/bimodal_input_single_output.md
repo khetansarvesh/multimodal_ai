@@ -1,9 +1,3 @@
-# Bimodal Input Single Output
-
-Now here bimodal inputs can be of many types : 
-
-
-
 # $\color{cyan}{Text\ +\ 2D\ Input\}$
 
 These are systems that can take both text and images as inputs

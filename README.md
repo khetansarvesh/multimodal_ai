@@ -7,11 +7,6 @@ Here the multimodal inputs can be of different types :
 - [Trimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/trimodal_input_single_output.md) Input Single Output
 - [General](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/general_input_single_output.md) Input Single Output
 
-
-These are systems that can take both text and images as inputs
-- Such models are commonly know as Large MultiModal Models (LMMs) 
-
-
 # 3. Single Input Multimodal Output System
 These are systems that can generate multiple modalaties as output for instance if we ask ChatGPT to explain ’what is AI’ then an effective explanation might require graphs, equations, and even simple animations.
 

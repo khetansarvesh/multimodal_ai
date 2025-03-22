@@ -3,9 +3,9 @@ These are systems that take input and give output modalities which are of differ
 
 # 2. Multimodal Inputs Single Output System 
 Here the multimodal inputs can be of different types : 
-- Bimodal Input Single Output
-- Trimodal Input Single Output
-- General Input Single Output
+- [Bimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/bimodal_input_single_output.md) Input Single Output
+- [Trimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/trimodal_input_single_output.md) Input Single Output
+- [General](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/general_input_single_output.md) Input Single Output
 
 
 These are systems that can take both text and images as inputs

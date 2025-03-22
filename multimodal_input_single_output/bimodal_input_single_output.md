@@ -3,7 +3,7 @@
 Now here bimodal inputs can be of many types : 
 
 
-###<ins> Text + 2D Input </ins>
+<ins> ### Text + 2D Input </ins>
 
 
 ### Text + Video Input

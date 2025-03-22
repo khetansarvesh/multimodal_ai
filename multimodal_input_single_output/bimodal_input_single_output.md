@@ -24,11 +24,32 @@ These are systems that can take both text and images as inputs
 
 
 # $\color{cyan}{Text\ +\ 3D\ Input\}$
-1. Representation Learning :
-2. Downstream Tasks :
+1. Representation Learning
+2. Downstream Tasks
 
 
 
 # $\color{cyan}{Text\ +\ Audio\ Input\}$
 
 
+
+# $\color{cyan}{2D\ Image\ +\ Tabular\ Data\ Input\}$
+1. Representation Learning
+   - Use CNN to encode image data 
+   - ANN to encode tabular cross sectional data 
+   - Then concatenate the outputs from last hidden layer of these networks and then again train the combined output with a FFNN
+2. Downstream Tasks
+
+
+
+# $\color{cyan}{Text\ +\ Tabular\ Data\ Input\}$
+1. Representation Learning
+   - Use Sequence model like RNN / LSTM / …./ Transformers to encode text data 
+   - ANN to encode tabular cross sectional data 
+   - Then concatenate the outputs from last hidden layer of these networks and then again train the combined output with a FFNN
+2. Downstream Tasks
+   - Tabular QA Task
+
+
+
+# $\color{cyan}{Text\ +\ Audio\ Input\}$

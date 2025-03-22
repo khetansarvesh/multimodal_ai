@@ -2,6 +2,11 @@
 These are systems that take input and give output modalities which are of different types. More information on this available [here](https://github.com/khetansarvesh/multimodal_ai/tree/main/cross_modal)
 
 # 2. Multimodal Inputs Single Output System 
+- Bimodal Input Single Output
+- Trimodal Input Single Output
+- General Input Single Output
+
+
 These are systems that can take both text and images as inputs
 - Such models are commonly know as Large MultiModal Models (LMMs) 
 

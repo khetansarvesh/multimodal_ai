@@ -8,6 +8,7 @@ Here the multimodal inputs can be of different types :
 - General Input Single Output :-
   - [ImageBind](https://arxiv.org/pdf/2305.05665) : Capable of handling 6 different input modalities i.e. images, text, audio, depth, thermal, and IMU data.
   - [Meta-Transformer](https://kxgong.github.io/meta_transformer/) : Capable of handling text, images, audio, 3D point clouds, video, graphs, and tables (both cross sectional and time series)
+  - [Macaw](https://arxiv.org/abs/2306.09093) : Capable of handling Image, Audio, Video, Text
 
 # 3. Single Input Multimodal Output System
 These are systems that can generate multiple modalaties as output for instance if we ask ChatGPT to explain ’what is AI’ then an effective explanation might require graphs, equations, and even simple animations.

@@ -31,7 +31,9 @@ These are systems that can take both text and images as inputs
 
 
 # $\color{cyan}{Text\ +\ Audio\ Input\}$
-1. Representation Learning
+1. Representation Learning (Audio Language Model) :
+   - [GAMA](https://sreyan88.github.io/gamaaudio/)
+   
 2. Downstream Tasks
 
 

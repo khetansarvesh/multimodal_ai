@@ -8,7 +8,7 @@
 # $\color{cyan}{Text\ +\ 2D\ Input\}$
 1. Representation Learning (Visual Language Models - VLMs) :
 
-2. Downstream Tasks :
+2. [Downstream Tasks](https://khetansarvesh.medium.com/downstream-tasks-using-vlms-57be1fadb618)
 
 
 

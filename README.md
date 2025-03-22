@@ -6,8 +6,9 @@ Here the multimodal inputs can be of different types :
 - [Bimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/bimodal_input_single_output.md) Input Single Output :-
   
 - [Trimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/trimodal_input_single_output.md) Input Single Output :-
-  - [VATT](https://arxiv.org/pdf/2104.11178) : Handles Video, Audio and Text
+  - [Data2Vec](https://arxiv.org/pdf/2202.03555) : Handles Image, Audio and Text. 
   - [MERIOT](https://arxiv.org/pdf/2201.02639) : Handles Image, Audio and Text
+  - [VATT](https://arxiv.org/pdf/2104.11178) : Handles Video, Audio and Text
   - [ULIP](https://arxiv.org/abs/2212.05171) : Handles Text, Images and 3D Point Clouds
     
 - General Input Single Output :-

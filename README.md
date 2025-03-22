@@ -6,6 +6,7 @@ Here the multimodal inputs can be of different types :
 - [Bimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/bimodal_input_single_output.md) Input Single Output
 - [Trimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/trimodal_input_single_output.md) Input Single Output
 - [General](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/general_input_single_output.md) Input Single Output
+  - [ImageBind](https://arxiv.org/pdf/2305.05665) : Capable of handling 6 different input modalities i.e. images, text, audio, depth, thermal, and IMU data.  
 
 # 3. Single Input Multimodal Output System
 These are systems that can generate multiple modalaties as output for instance if we ask ChatGPT to explain ’what is AI’ then an effective explanation might require graphs, equations, and even simple animations.

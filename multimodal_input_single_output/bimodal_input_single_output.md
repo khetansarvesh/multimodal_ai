@@ -13,7 +13,11 @@ These are systems that can take both text and images as inputs
 
 
 # $\color{cyan}{Text\ +\ Video\ Input\}$
-
+1. Representation Learning :
+   - [VideoBERT](https://arxiv.org/abs/1904.01766) (Google, April 2019)
+   - ActBERT
+2. Downstream Tasks :
+   - Non Generative Tasks => Built In Video Search eg suppose in a movie of 2hr you want to search for a car exploding scene
 
 
 

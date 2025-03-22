@@ -17,12 +17,15 @@ These are systems that can take both text and images as inputs
    - [VideoBERT](https://arxiv.org/abs/1904.01766) (Google, April 2019)
    - ActBERT
 2. Downstream Tasks :
-   - Non Generative Tasks => Built In Video Search eg suppose in a movie of 2hr you want to search for a car exploding scene
+   - Built In Video Search eg suppose in a movie of 2hr you want to search for a car exploding scene
+   - Video Captioning
+   - Video Retrieval i.e. given a txt prompt retrieve all the relevant videos (youtube algorithm)
 
 
 
 # $\color{cyan}{Text\ +\ 3D\ Input\}$
-
+1. Representation Learning :
+2. Downstream Tasks :
 
 
 

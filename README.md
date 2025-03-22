@@ -2,6 +2,7 @@
 These are systems that take input and give output modalities which are of different types. More information on this available [here](https://github.com/khetansarvesh/multimodal_ai/tree/main/cross_modal)
 
 # 2. Multimodal Inputs Single Output System 
+Here the multimodal inputs can be of different types : 
 - Bimodal Input Single Output
 - Trimodal Input Single Output
 - General Input Single Output

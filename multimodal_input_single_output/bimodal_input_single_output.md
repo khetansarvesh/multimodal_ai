@@ -54,3 +54,9 @@ These are systems that can take both text and images as inputs
 
 
 # $\color{cyan}{Text\ +\ Audio\ Input\}$
+1. Representation Learning (Video Large Language Model or VLLM) : 
+   - To handle sequence of images => combo of CNN (to convert image to numerical form) / vision transformers + RNN (to handle sequence of images information) / transformers
+   - To handle audio
+
+2. Downstream Tasks :
+   - Video Generation

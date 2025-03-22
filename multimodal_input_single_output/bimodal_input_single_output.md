@@ -30,7 +30,8 @@ These are systems that can take both text and images as inputs
 
 
 # $\color{cyan}{Text\ +\ Audio\ Input\}$
-
+1. Representation Learning
+2. Downstream Tasks
 
 
 # $\color{cyan}{2D\ Image\ +\ Tabular\ Data\ Input\}$

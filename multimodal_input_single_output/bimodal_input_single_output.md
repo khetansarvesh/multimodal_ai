@@ -16,6 +16,7 @@ These are systems that can take both text and images as inputs
 1. Representation Learning :
    - [VideoBERT](https://arxiv.org/abs/1904.01766) (Google, April 2019)
    - ActBERT
+     
 2. Downstream Tasks :
    - Built In Video Search eg suppose in a movie of 2hr you want to search for a car exploding scene
    - Video Captioning
@@ -39,6 +40,7 @@ These are systems that can take both text and images as inputs
    - Use CNN to encode image data 
    - ANN to encode tabular cross sectional data 
    - Then concatenate the outputs from last hidden layer of these networks and then again train the combined output with a FFNN
+     
 2. Downstream Tasks
 
 
@@ -48,6 +50,7 @@ These are systems that can take both text and images as inputs
    - Use Sequence model like RNN / LSTM / …./ Transformers to encode text data 
    - ANN to encode tabular cross sectional data 
    - Then concatenate the outputs from last hidden layer of these networks and then again train the combined output with a FFNN
+     
 2. Downstream Tasks
    - Tabular QA Task
 

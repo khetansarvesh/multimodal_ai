@@ -5,7 +5,7 @@ These are systems that take input and give output modalities which are of differ
 Here the multimodal inputs can be of different types : 
 - [Bimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/bimodal_input_single_output.md) Input Single Output
 - [Trimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/trimodal_input_single_output.md) Input Single Output
-- [General](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/general_input_single_output.md) Input Single Output
+- General Input Single Output
   - [ImageBind](https://arxiv.org/pdf/2305.05665) : Capable of handling 6 different input modalities i.e. images, text, audio, depth, thermal, and IMU data.
   - [Meta-Transformer](https://kxgong.github.io/meta_transformer/) : Capable of handling text, images, audio, 3D point clouds, video, graphs, and tables (both cross sectional and time series)
 

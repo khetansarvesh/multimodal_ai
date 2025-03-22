@@ -12,11 +12,11 @@ These are systems that can generate multiple modalaties as output for instance i
 
 To generate multimodal outputs, a model would first need to generate a shared intermediate output. One key question is what the intermediate output would look like.
 
-### 1. Method 1 : 
+### <ins> Method 1 </ins> : 
 - One option for intermediate output is text, which will then be used to generate/synthesize other actions.
 - For example, [CM3](https://arxiv.org/abs/2201.07520) outputs HTML markup which can be compiled into web pages that contain not only text but also formattings, links, and images. GPT-4V generates Latex code, which can then be reconstructed as data tables.
 
-### 2. Method 2 : 
+### <ins> Method 2 </ins> : 
 - Another option for intermediate output would be multimodal tokens.
 - Each token will have a tag to denote whether it’s a text token or an image token. 
   - Image tokens will then be input into an image model like Diffusion to generate images. (or use already existing models to generate image)

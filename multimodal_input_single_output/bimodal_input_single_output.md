@@ -7,7 +7,7 @@
 
 # $\color{cyan}{Text\ +\ 2D\ Input\}$
 1. Representation Learning (Visual Language Models - VLMs) : Here we can broadly classify the methods into two categories
-   - Coordinated / Parallel Stream Representation
+   - [Coordinated / Parallel Stream Representation](https://khetansarvesh.medium.com/parallel-stream-representation-learning-for-visual-language-models-vlms-3b9233f3f8c5)
    - Joint / Fusion / Single Stream Representation
 
 2. [Downstream Tasks](https://khetansarvesh.medium.com/downstream-tasks-using-vlms-57be1fadb618)

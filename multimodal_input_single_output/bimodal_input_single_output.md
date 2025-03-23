@@ -13,6 +13,17 @@
 2. [Downstream Tasks](https://khetansarvesh.medium.com/downstream-tasks-using-vlms-57be1fadb618)
 
 
+Some standard datasets for VLM are as follows : 
+- [Microsoft Common Objects in Context (COCO)](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html)
+- Visual Genome
+- Conceptual Captions (CC)
+- ADE20K
+- [VQA](https://visualqa.org/) v2
+- [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/)
+- [LAION](https://laion.ai/) - 400M and LAION-5B
+- Localized Narratives
+- WuDaoMM
+- Wikipedia Image Text (WIT)
 
 
 

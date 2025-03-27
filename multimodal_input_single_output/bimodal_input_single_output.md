@@ -8,7 +8,7 @@
 # $\color{cyan}{Text\ +\ 2D\ Input\}$
 1. Representation Learning (Visual Language Models - VLMs) : Here we can broadly classify the methods into two categories
    - [Coordinated / Parallel Stream Representation](https://khetansarvesh.medium.com/parallel-stream-representation-learning-for-visual-language-models-vlms-3b9233f3f8c5) : This type of encoding leads to two separate text and image embeddings which can be later used independently for unimodal tasks. 
-   - Joint / Fusion / Single Stream Representation : This type of encoding leads to one single embedding for both text and image.
+   - [Joint / Fusion / Single Stream Representation](https://khetansarvesh.medium.com/single-stream-representation-learning-for-visual-language-models-vlms-b9455b35216a) : This type of encoding leads to one single embedding for both text and image.
 
 2. [Downstream Tasks](https://khetansarvesh.medium.com/downstream-tasks-using-vlms-57be1fadb618)
 

@@ -146,3 +146,16 @@ def main(
 
 if __name__ == "__main__":
     fire.Fire(main)
+
+
+
+#run using these configurations
+python inference.py \
+    --model_path "$HOME/projects/paligemma-weights/paligemma-3b-pt-224" \
+    --prompt "this building is " \
+    --image_file_path "test_images/pic1.jpeg" \
+    --max_tokens_to_generate 100 \
+    --temperature 0.8 \
+    --top_p 0.9 \
+    --do_sample "False" \
+    --only_cpu "False" \

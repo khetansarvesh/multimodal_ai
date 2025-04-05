@@ -13,7 +13,7 @@ import torch.nn as nn
 
 class VLM(nn.Module):
 
-    def __init__(self, vocab_size, hidden_size, img_size=224, patch_size=16, num_heads=8, num_layers=2):
+    def __init__(self, vocab_size = 30522, hidden_size = 768, img_size=224, patch_size=16, num_heads=8, num_layers=2):
         super(VLM, self).__init__()
         self.vocab_size = vocab_size
         self.hidden_size = hidden_size
@@ -73,22 +73,3 @@ class VLM(nn.Module):
         logits = nn.Linear(hidden_size, vocab_size)(combined_features)
 
         return logits
-
-
-# Example usage:
-if __name__ == "__main__":
-    vocab_size = 30522  # Example vocabulary size (e.g., BERT tokenizer vocab size)
-    hidden_size = 768   # Hidden size for embeddings and transformer layers
-
-    model = VLM(vocab_size=vocab_size, hidden_size=hidden_size)
-
-    batch_size = 2
-    seq_len = 10  # Number of tokens in the input sequence
-    img_height = img_width = 224
-
-    # Example inputs: random token IDs and random pixel values for images
-    text_input_ids = torch.randint(0, vocab_size, (batch_size, seq_len))
-    pixel_values = torch.randn(batch_size, 3, img_height, img_width)
-
-    # Forward pass through the model
-    logits = model(text_input_ids=text_input_ids, pixel_values=pixel_values)

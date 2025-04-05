@@ -44,11 +44,11 @@ class VLM(nn.Module):
         return x
 
     def forward(self, 
-                text_tokens, # these are tokens like <223 98 738 67 03 ........ 890>
+                text_tokens, # these are text tokens like <223 98 738 67 03 ........ 890>
                 im):
 
         '''Convert text tokens (scalars) to embeddings (vectors) '''
-        text_features = nn.Embedding(vocab_size, 2048)(text_tokens)
+        text_features = nn.Embedding(self.vocab_size, 2048)(text_tokens)
 
         '''Process image features through the vision model'''
         image_features = self.vision_model(im)
@@ -60,9 +60,9 @@ class VLM(nn.Module):
         '''passing the concatenated tokens via transformer encoder'''
         combined_features = nn.TransformerEncoder(
                                     nn.TransformerEncoderLayer(
-                                        d_model=hidden_size,
+                                        d_model=2048,
                                         nhead=8,
-                                        dim_feedforward=hidden_size * 4,
+                                        dim_feedforward=2048 * 4,
                                         activation="gelu",
                                         batch_first=True
                                     ),
@@ -70,6 +70,6 @@ class VLM(nn.Module):
                                 )(combined_features)
 
         '''Compute logits for the combined features'''
-        logits = nn.Linear(hidden_size, vocab_size)(combined_features)
+        logits = nn.Linear(2048, self.vocab_size)(combined_features)
 
         return logits

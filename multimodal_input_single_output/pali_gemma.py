@@ -47,18 +47,16 @@ class VLM(nn.Module):
 
         return x
 
-    def text_tokenizer(self):
-        return pass
+    def forward(self, 
+                text_tokens, # these are tokens like <223 98 738 67 03 ........ 890>
+                im):
 
-    def forward(self, text_values, pixel_values):
+        '''Convert text tokens (scalars) to embeddings (vectors) '''
+        text_features = nn.Embedding(vocab_size, 2048)(text_tokens)
 
         '''Process image features through the vision model'''
-        image_features = self.vision_model(pixel_values)
-        image_features = nn.Linear(768, 2048, bias=True)(image_features)
-
-        '''Process text input through the language model'''
-        text_tokens = self.text_tokenizer(text_values) # convert text to token using text tokenizer
-        text_features = nn.Embedding(vocab_size, hidden_size)(text_tokens) #convert tokens to embeddings
+        image_features = self.vision_model(im)
+        image_features = nn.Linear(768, 2048, bias=True)(image_features) # matching image embeddings with text embeddings
 
         '''Concatenate image and text features along the sequence dimension'''
         combined_features = torch.cat([image_features, text_features], dim=1)

@@ -17,10 +17,6 @@ class VLM(nn.Module):
         super(VLM, self).__init__()
         self.vocab_size = vocab_size
         self.hidden_size = hidden_size
-
-        # Vision model parameters
-        self.img_size = img_size
-        self.patch_size = patch_size
         self.num_patches = (img_size // patch_size) * (img_size // patch_size)
         self.patch_dim = 3 * patch_size * patch_size  # Input channels (3) * patch size
 

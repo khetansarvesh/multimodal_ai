@@ -29,7 +29,7 @@
 
   
 ### 3. Text2Video Task
-- Think of Video2Video Task and then condition it on texts, same as logic explained above we can here also only use models like GANs and Diffusion
+- Think of [Video2Video](https://pub.towardsai.net/video-reconstruction-using-transformers-b0a73ff3396f) Task and then condition it on texts, same as logic explained above we can here also only use models like GANs and Diffusion
 - You can learn a general framework [here](https://www.youtube.com/watch?v=0K56LA821ys)
 - Some prominent models in this space are :
   1. [Stable Video Diffusion](https://stability.ai/news/stable-video-diffusion-open-ai-video-model)

@@ -1,6 +1,5 @@
 # $\color{cyan}{1.\ Cross\ Modal\ System\}$
-These are systems that take input and give output modalities which are of different types. More information on this available [here](https://github.com/khetansarvesh/multimodal_ai/tree/main/cross_modal)
-- X2Text Task
+- [X2Text Task]((https://github.com/khetansarvesh/multimodal_ai/tree/main/cross_modal))
 - Text2X Task
 
 

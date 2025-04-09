@@ -1,6 +1,6 @@
 # $\color{cyan}{1.\ Cross\ Modal\ System\}$
 
-## [Natural Language Generation Tasks (X2Text) Task](https://github.com/khetansarvesh/multimodal_ai/tree/main/cross_modal)
+## Natural Language Generation Tasks (X2Text) Task
 - Image2Text i.e. Image Captioning
   - Think of Text2Text task eg Machine Translation and now instead of conditioning it on text we condition it on Image
 

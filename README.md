@@ -1,6 +1,6 @@
 # $\color{cyan}{1.\ Cross\ Modal\ System\}$
 
-- Natural Language Generation Tasks (X2Text) Task
+- [Natural Language Generation Tasks (X2Text) Task](https://khetansarvesh.medium.com/natural-language-generation-x2text-tasks-78641031b033)
 - Text2X Task
 
 

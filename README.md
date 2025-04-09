@@ -1,14 +1,7 @@
 # $\color{cyan}{1.\ Cross\ Modal\ System\}$
 
-## 1.1 Natural Language Generation Tasks (X2Text) Task
-
-
-
-## 1.2 Text2X Task
-
-
-
-
+- Natural Language Generation Tasks (X2Text) Task
+- Text2X Task
 
 
 

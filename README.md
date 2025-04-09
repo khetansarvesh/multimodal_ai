@@ -11,7 +11,7 @@
 
 # $\color{cyan}{2.\ Multimodal\ Inputs\ Single\ Output\ System\}$
 Here the multimodal inputs can be of different types : 
-- [Bimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/multimodal_input_single_output/bimodal_input_single_output.md) Input Single Output :-
+- [Bimodal](https://github.com/khetansarvesh/multimodal_ai/blob/main/bimodal_input_single_output.md) Input Single Output :-
   
 - Trimodal Input Single Output :-
   - [MERIOT](https://arxiv.org/pdf/2201.02639) : Handles Image, Audio and Text

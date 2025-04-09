@@ -106,3 +106,14 @@ Some standard datasets for VLM are as follows :
 
 2. Downstream Tasks :
    - Video Generation
+  
+
+
+
+
+# $\color{cyan}{Mask Prompts\ +\ Image\ Input\}$
+[SAM1 by Meta](https://www.youtube.com/watch?v=eYhvJR4zFUM)
+
+
+# $\color{cyan}{Mask Prompts\ +\ Video\ Input\}$
+[SAM2 by Meta](https://www.youtube.com/watch?v=wMGb97EZkVU)

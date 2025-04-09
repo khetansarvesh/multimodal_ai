@@ -1,6 +1,6 @@
 # $\color{cyan}{1.\ Cross\ Modal\ System\}$
 
-## Natural Language Generation Tasks (X2Text) Task
+## 1.1 Natural Language Generation Tasks (X2Text) Task
 - Image2Text i.e. Image Captioning
   - Think of Text2Text task eg Machine Translation and now instead of conditioning it on text we condition it on Image
 
@@ -11,7 +11,7 @@
 - Video2Text i.e. Video Captioning
   - Think of Text2Text task eg Machine Translation and now instead of conditioning it on text we condition it on Video
 
-## Text2X Task
+## 1.2 Text2X Task
 
 
 

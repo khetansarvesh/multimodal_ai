@@ -1,15 +1,8 @@
 # $\color{cyan}{1.\ Cross\ Modal\ System\}$
 
 ## 1.1 Natural Language Generation Tasks (X2Text) Task
-- Image2Text i.e. Image Captioning
-  - Think of Text2Text task eg Machine Translation and now instead of conditioning it on text we condition it on Image
 
-- Audio2Text / Speech2Text eg audio transcription (also called Speech Recognition or Automatic Speech Recognition (ASR) System)
-  - Think of Text2Text task eg Machine Translation and now instead of conditioning it on text we condition it on Audio. Hence we can use exactly what we saw in Image2Text just that now instead of conditioning it on input image embeddings we will condition it on input audio embeddings !!
-  - Important Model : Whisper by OpenAI
 
-- Video2Text i.e. Video Captioning
-  - Think of Text2Text task eg Machine Translation and now instead of conditioning it on text we condition it on Video
 
 ## 1.2 Text2X Task
 

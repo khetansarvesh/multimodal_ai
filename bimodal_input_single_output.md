@@ -9,6 +9,7 @@
 1. Representation Learning (Visual Language Models - VLMs) : Here we can broadly classify the methods into two categories
    - [Coordinated / Parallel Stream Representation](https://khetansarvesh.medium.com/parallel-stream-representation-learning-for-visual-language-models-vlms-3b9233f3f8c5) : This type of encoding leads to two separate text and image embeddings which can be later used independently for unimodal tasks. 
    - [Joint / Fusion / Single Stream Representation](https://khetansarvesh.medium.com/single-stream-representation-learning-for-visual-language-models-vlms-b9455b35216a) : This type of encoding leads to one single embedding for both text and image.
+   - Fission : This type of encoding leads to both one single embedding of both text and image + two seperate matured text and image embedding. Hence in total 3 new embeddings
 
 2. [Downstream Tasks](https://khetansarvesh.medium.com/downstream-tasks-using-vlms-57be1fadb618)
 
@@ -117,3 +118,4 @@ Some standard datasets for VLM are as follows :
 
 # $\color{cyan}{Mask Prompts\ +\ Video\ Input\}$
 [SAM2 by Meta](https://www.youtube.com/watch?v=wMGb97EZkVU)
+
